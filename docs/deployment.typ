@@ -2,8 +2,8 @@
 = Публикация brand.bybor.cc
 
 Статический сайт: public/. Источники логотипа: public/assets/.
-Документация бренда: docs/brand.typ. Для публикации правил:
-#raw("typst compile docs/brand.typ public/brand.pdf\ncp docs/brand.typ public/brand.typ", block: true)
+Документация бренда: skills/bor-brand/references/brand.typ. Для публикации правил:
+#raw("python tools/package.py", block: true)
 
 Репозиторий GitHub: https://github.com/bybor-cc/brand.bybor.cc.
 Локальная папка: /home/ab/Projects/brand.bybor.cc.

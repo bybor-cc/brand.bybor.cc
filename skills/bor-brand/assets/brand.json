@@ -1,0 +1,83 @@
+{
+  "version": "0.1.0",
+  "brand": {
+    "name": "Bor",
+    "mark": "b∅r",
+    "website": "https://brand.bybor.cc",
+    "repository": "https://github.com/bybor-cc/brand.bybor.cc",
+    "aspectRatio": [
+      338,
+      174
+    ]
+  },
+  "profiles": {
+    "identity": {
+      "status": "approved-brand-identity",
+      "description": "Only the existing mark and its usage rules; no required UI font, spacing or product colors."
+    },
+    "devices": {
+      "status": "existing-devices-design",
+      "description": "Opt-in UI profile extracted from Devices Android. It is not a universal Bor requirement.",
+      "font": {
+        "family": "Geist",
+        "file": "geist.ttf",
+        "license": "geist-license.txt"
+      },
+      "colors": {
+        "light": {
+          "primary": "#171717",
+          "onPrimary": "#FAFAFA",
+          "secondary": "#F5F5F5",
+          "onSecondary": "#171717",
+          "secondaryContainer": "#F5F5F5",
+          "onSecondaryContainer": "#171717",
+          "background": "#F5F5F5",
+          "onBackground": "#0A0A0A",
+          "onSurface": "#0A0A0A",
+          "surfaceVariant": "#F5F5F5",
+          "onSurfaceVariant": "#737373",
+          "surfaceContainerHighest": "#F5F5F5",
+          "outline": "#A3A3A3",
+          "outlineVariant": "#E5E5E5",
+          "surface": "#FFFFFF",
+          "surfaceContainer": "#FFFFFF"
+        },
+        "dark": {
+          "primary": "#E5E5E5",
+          "onPrimary": "#171717",
+          "secondary": "#404040",
+          "onSecondary": "#FAFAFA",
+          "secondaryContainer": "#262626",
+          "onSecondaryContainer": "#FAFAFA",
+          "background": "#0A0A0A",
+          "onBackground": "#FAFAFA",
+          "surface": "#171717",
+          "onSurface": "#FAFAFA",
+          "surfaceVariant": "#262626",
+          "onSurfaceVariant": "#A3A3A3",
+          "surfaceContainer": "#171717",
+          "surfaceContainerHighest": "#262626",
+          "outline": "#525252",
+          "outlineVariant": "#303030"
+        }
+      },
+      "radius": {
+        "extraSmall": 6,
+        "small": 8,
+        "medium": 24,
+        "large": 28,
+        "extraLarge": 32
+      },
+      "layout": {
+        "screenInset": 20,
+        "cardInset": 24,
+        "contentGap": 12,
+        "compactGap": 8
+      },
+      "units": {
+        "radius": "dp on Android; px in web export",
+        "layout": "dp on Android; px in web export"
+      }
+    }
+  }
+}
