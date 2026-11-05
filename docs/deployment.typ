@@ -26,3 +26,15 @@ API и MQTT не перезапускаются. Последующие изме
 Обновление выполняется tools/import-branding.py в репозитории Devices
 из локального checkout этого репозитория, после чего запускаются генераторы
 панели, Android и OLED. Не требуется загружать файлы с сайта при сборке продукта.
+
+
+== Обновление сайта
+
+На VPS Git не установлен. Передача выполняется архивом зафиксированного
+commit, без .git, локальных файлов и секретов:
+#raw("git archive HEAD | ssh arch@devices 'tar -xf - -C /home/arch/brand.bybor.cc'", block: true)
+После изменения конфигурации выполнить:
+#raw("ssh arch@devices 'sudo docker exec devices-caddy-1 caddy validate --config /etc/caddy/Caddyfile && sudo docker exec devices-caddy-1 caddy reload --config /etc/caddy/Caddyfile'", block: true)
+
+Публиковать только зафиксированные изменения. Исходный commit находится
+в репозитории GitHub; архив содержит ровно его отслеживаемые файлы.
