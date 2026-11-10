@@ -24,6 +24,12 @@ directory containing this SKILL.md. Run its scripts using their absolute paths.
   light/dark palettes, radii and layout values. Use it for Devices itself or when
   the user asks for the Devices look. Do not present it as a universal Bor rule.
 
+For startup screens and wallpapers, use `assets/bor-albertsthal.png` when
+the textured desktop treatment is requested. It is a 3840 × 2160 white
+b∅r on black. Center it, preserve its proportions, and fill any extra space
+with black. The regular identity and launcher exports use the canonical SVGs.
+The PNG is also available at https://brand.bybor.cc/assets/bor-albertsthal.png.
+
 Read references/brand.typ for the established identity and the distinction
 between brand and product. Read references/integration.typ only for the target
 platform you are integrating. Machine-readable values are in assets/brand.json;
