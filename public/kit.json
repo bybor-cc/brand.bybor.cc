@@ -1,18 +1,18 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": "https://github.com/bybor-cc/brand.bybor.cc",
   "downloads": {
     "bor-brand.zip": {
       "url": "https://brand.bybor.cc/bor-brand.zip",
-      "sha256": "f6455e654c3ebff1619f80a3c7c150d19dbf43054648533970707742b279df43"
+      "sha256": "a3278b1ff6554cf122d0d191278e2a26583453123ec2d274832fcdadbd79f5a6"
     },
     "bor-web.zip": {
       "url": "https://brand.bybor.cc/bor-web.zip",
-      "sha256": "7de3a2d3e36fd14060b39a308252184747b6cf21031852f3ddb31ab99c1a87e9"
+      "sha256": "983b162d0b8a75d0f7a7262c9c5ead29869b9f40fdaf4fb83ccffdb63dd70d23"
     },
     "bor-android.zip": {
       "url": "https://brand.bybor.cc/bor-android.zip",
-      "sha256": "ba9ecf49ebdf8d7be78fec2977f558dac2f3ff4cb64b51df5daaccc9f2486488"
+      "sha256": "20461d5a2e6e5264e1130404e2279cd578127477e31f0b3318f72dbf10234847"
     }
   }
 }

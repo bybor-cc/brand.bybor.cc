@@ -24,6 +24,12 @@ directory containing this SKILL.md. Run its scripts using their absolute paths.
   light/dark palettes, radii and layout values. Use it for Devices itself or when
   the user asks for the Devices look. Do not present it as a universal Bor rule.
 
+- **desktop** is the opt-in monochrome palette from the bybor.cc Omarchy
+  theme. Use it when the user requests the look of their desktop. Read
+  `assets/brand.json` → `profiles.desktop.colors.dark` and map semantic
+  tokens to the target UI. This palette is documented in the kit and
+  integrated manually. The web and Android exporters accept identity and devices.
+
 For startup screens and wallpapers, use `assets/bor-albertsthal.png` when
 the textured desktop treatment is requested. It is a 3840 × 2160 white
 b∅r on black. Center it, preserve its proportions, and fill any extra space
